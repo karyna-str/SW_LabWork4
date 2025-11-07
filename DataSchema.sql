@@ -1,5 +1,5 @@
 CREATE TABLE "User" (
-    user_id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     last_name VARCHAR(100) NOT NULL,
     first_name VARCHAR(100) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
